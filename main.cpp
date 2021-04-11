@@ -14,6 +14,10 @@ cout << "A + B = " << a + b << '\n'
      int max=a;
      if (max<b)
         max=b;
-     cout << "Max = " << max;
+     cout << "Max = " << max << endl;
+     int min=a;
+     if (min>b)
+        b=min;
+     cout << "Min = " << min << endl;
     return 0;
 }
