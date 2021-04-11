@@ -17,7 +17,7 @@ cout << "A + B = " << a + b << '\n'
      cout << "Max = " << max << endl;
      int min=a;
      if (min>b)
-        b=min;
+        min=b;
      cout << "Min = " << min << endl;
     return 0;
 }
